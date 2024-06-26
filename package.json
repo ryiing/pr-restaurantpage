@@ -1,0 +1,26 @@
+{
+  "name": "pr-restaurantpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryiing/pr-restaurantpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryiing/pr-restaurantpage/issues"
+  },
+  "homepage": "https://github.com/ryiing/pr-restaurantpage#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
