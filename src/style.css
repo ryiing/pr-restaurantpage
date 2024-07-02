@@ -19,7 +19,7 @@ header {
     border: none;
     color: white;
     size: 40px;
-    margin: 50px;
+    margin: 40px;
     padding: 15px 40px;
     font-size: 30px;
 }
@@ -33,7 +33,7 @@ header {
     height: 400px;
 }
 
-.info {
+.content .info {
     display: flex;
     flex-direction: column;
     padding: 30px;

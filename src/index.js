@@ -1,4 +1,5 @@
 import './style.css';
+import { infoPage } from './info';
 
 const mainBtn = document.getElementById("main");
 const menuBtn = document.getElementById("menu");
@@ -102,4 +103,8 @@ mainBtn.addEventListener('click', () => {
 
 menuBtn.addEventListener('click', () => {
     menuPage.updateMenu();
+});
+
+infoBtn.addEventListener('click', () => {
+    infoPage.updateInfo();
 });
